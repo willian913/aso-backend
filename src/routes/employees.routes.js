@@ -20,6 +20,6 @@ router.get('/by-idpetrobras/:idPetrobras', EmployeesController.getEmployeeByIdPe
 
 
 // Rota extra opcional (exemplo): suspender notificações
-// router.patch('/:id/suspend', EmployeesController.suspendNotifications)
+// router.patch('/:id/suspend', EmployeesController.suspendNotifications);
 
 module.exports = router;
