@@ -1,4 +1,6 @@
-const Employee = require('../models/Employee');
+const path = require('path');
+const Employee = require(path.resolve(__dirname, '../models/Employee'));
+
 
 // Buscar todos os colaboradores
 exports.getAllEmployees = async (req, res) => {
